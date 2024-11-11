@@ -310,4 +310,91 @@ nav{
     padding-bottom: 5%;
     height: 100px;
 }
+ 
+@media only screen and (max-width: 600px) {
+    .searchbar {
+        width: 80%;
+        left: 10px;
+        top: 20px;
+    }
+
+    #searchBtn {
+        left: 50%;
+        transform: translateX(-50%);
+        top: 60px;
+        margin-left: 0; 
+    }
+
+    #currentWeather {
+        font-size: 50px;
+    }
+
+    #upcomingForecast {
+        width: 100%;
+        left: 0;
+        top: -150px;
+    }
+
+    #map {
+        width: 100%;
+        left: 0;
+        top: 0;
+    }
+
+    #weatherDisplay1, #weatherDisplay2 {
+        position: static;
+        margin: 10px;
+    }
+
+    nav {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .nav-links ul li {
+        display: block;
+        padding: 10px 0;
+    }
+
+    header {
+        padding-bottom: 10%;
+    }
+
+    .title {
+        font-size: 200%;
+    }
+
+    #foot {
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .searchbar {
+        width: 70%;
+        left: 10%;
+    }
+
+    #searchBtn {
+        left: 50%; 
+        transform: translateX(-50%);
+        top: 40px;
+    }
+
+    #upcomingForecast {
+        width: 90%;
+        left: 5%;
+        top: -180px;
+    }
+
+    #map {
+        width: 90%;
+        left: 5%;
+        top: -50px;
+    }
+
+    .title {
+        font-size: 250%;
+    }
+}
 
